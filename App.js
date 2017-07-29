@@ -3,8 +3,8 @@ import { Text, View, StyleSheet, Image, Button, AlertIOS, ImagePickerIOS, Platfo
 import { StackNavigator, TabNavigator } from 'react-navigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { Constants } from 'expo';
-import ChatScreen from './view/Chat';
-import SettingScreen from './view/Setting';
+import ChatScreen from './src/Chat';
+import SettingScreen from './src/Setting';
 
 class HomeScreen extends Component {
   static navigationOptions = {
